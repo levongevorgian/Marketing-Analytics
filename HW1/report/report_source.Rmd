@@ -6,6 +6,11 @@ output:
 date: "2025-09-25"
 ---
 
+<!-- IMPORTANT: Run this first to install required packages -->
+```{r setup, include=FALSE}
+source("../install_packages.R")
+```
+
 # Tasks
 
 ## 1. Choose an Innovation from the List.
@@ -30,7 +35,7 @@ library(ggplot2)
 
 ### Time Series data on Meta/Oculus Quest Headsets
 ```{r}
-df <- read_excel("data.xlsx", sheet = "Data", skip = 4, col_names = FALSE)
+df <- read_excel("../data/data.xlsx", sheet = "Data", skip = 4, col_names = FALSE)
 head(df)
 
 colnames(df) <- df[1, ]
