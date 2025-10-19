@@ -58,7 +58,7 @@ The goal of this homework is to design an experiment with **four advertisement o
 
 ### Bonus 
 
-- [`bonus.pdf`](bonus/bonus.pdf)
+- [`bonus.pdf`](bonus/bonus.pdf) - Gives a better suggestion for the algorithms.
 - Suggest improvements for the current implementation plan.  
 - Ideas for better exploration-exploitation strategies or code optimization can earn extra points.
 
@@ -68,6 +68,7 @@ The goal of this homework is to design an experiment with **four advertisement o
 
 - DS223 - Marketing Analytics course materials.  
 - Multi-Armed Bandit literature for Epsilon-Greedy and Thompson Sampling.
+
 
 
 
