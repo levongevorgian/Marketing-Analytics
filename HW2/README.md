@@ -6,7 +6,7 @@ This repository contains my second homework for DS223 - Marketing Analytics. The
 
 ## Directory Structure
 
-### [code/](code/)
+### code/
 This folder contains the Python code implementing the experiment:
 
 - [Bandit.py](code/Bandit.py) — Abstract `Bandit` class defining the interface for all bandit algorithms
@@ -68,3 +68,4 @@ The goal of this homework is to design an experiment with **four advertisement o
 
 - DS223 - Marketing Analytics course materials.  
 - Multi-Armed Bandit literature for Epsilon-Greedy and Thompson Sampling.
+
