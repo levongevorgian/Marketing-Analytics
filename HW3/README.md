@@ -6,30 +6,30 @@ This repository contains my third homework for DS223 - Marketing Analytics. The 
 
 **code/**  
 Contains the Python notebook and supporting code:  
-- `AFT_Model.ipynb` — Main notebook with AFT model fitting, survival analysis, and CLV calculations.  
+- [`AFT_Model.ipynb`](code/AFT_Model.ipynb) — Main notebook with AFT model fitting, survival analysis, and CLV calculations.  
 
 **data/**  
 Contains the dataset and processed results:  
-- `telco.csv` — Original subscriber dataset.  
-- `telco_encoded_with_clv.csv` — Dataset with encoded features, predicted lifetime, and CLV.  
+- [`telco.csv`](data/telco.csv) — Original subscriber dataset.  
+- [`telco_encoded_with_clv.csv`](data/telco_encoded_with_clv.csv) — Dataset with encoded features, predicted lifetime, and CLV.  
 
 **img/**  
 Contains visualizations from the analysis:  
-- `AFT Survival Curves.png` — Survival curves for median customer across all models.  
-- `Survival Curves by Regions.png` — Survival curves by region using final model.  
-- `CLV Distribution.png` — Histogram of predicted CLV.  
-- `CLV Boxplot.png` — Boxplot of predicted CLV.  
-- `Average CLV by Region.png` — Bar plot of average CLV by region.  
-- `Average CLV by Customer Category.png` — Bar plot of average CLV by customer category.  
-- `Churn vs CLV.png` — Scatter plot of churn probability (12 months) vs CLV.  
+- [`AFT Survival Curves.png`](img/AFT%20Survival%20Curves.png) — Survival curves for median customer across all models.  
+- [`Survival Curves by Regions.png`](img/Survival%20Curves%20by%20Regions.png) — Survival curves by region using final model.  
+- [`CLV Distribution.png`](img/CLV%20Distribution.png) — Histogram of predicted CLV.  
+- [`CLV Boxplot.png`](img/CLV%20Boxplot.png) — Boxplot of predicted CLV.  
+- [`Average CLV by Region.png`](img/Average%20CLV%20by%20Region.png) — Bar plot of average CLV by region.  
+- [`Average CLV by Customer Category.png`](img/Average%20CLV%20by%20Customer%20Category.png) — Bar plot of average CLV by customer category.  
+- [`Churn vs CLV.png`](img/Churn%20vs%20CLV.png) — Scatter plot of churn probability (12 months) vs CLV.  
 
 **report/**  
 Contains the written report:  
-- `report.pdf` — Short report summarizing findings, insights, and retention recommendations.  
+- [`report.pdf`](report.pdf) — Short report summarizing findings, insights, and retention recommendations.  
 
 **requirements/**  
-- `requirements.pdf` — Homework instructions.  
-- `requirements.txt` — Python dependencies.  
+- [`requirements.pdf`](requirements.pdf) — Homework instructions.  
+- [`requirements.txt`](requirements.txt) — Python dependencies.  
 
 ## Homework Overview
 
@@ -58,4 +58,3 @@ The goal of this homework is to:
 
 - DS223 - Marketing Analytics course materials.  
 - [Lifelines Python library documentation](https://lifelines.readthedocs.io/en/latest/lifelines.fitters.html) for survival analysis and AFT models.
-
