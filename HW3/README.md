@@ -48,12 +48,6 @@ The goal of this homework is to:
 - High-value segments: older, married customers, especially in premium service categories.  
 - Estimated annual retention budget: calculated using predicted CLV and survival probabilities.  
 
-## Submission Notes
-
-- All code, data, and visualizations are included.  
-- Push the repository to GitHub with this `README.md`.  
-- Ensure that all image paths work correctly in GitHub (they should be in the `img/` folder).  
-
 ## References
 
 - DS223 - Marketing Analytics course materials.  
